@@ -1,0 +1,135 @@
+/* body parms */
+
+body {margin:0;}
+
+p {align-content: center}
+
+
+/* my css sticky navigation menu */
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(52, 56, 55);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  Font-size: 12;
+}
+
+/* sticky-menu link and hover behavior */
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* main body stuff */
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+/* web page container */
+
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 100% 960 100%;
+    grid-template-rows: ;
+    grid-gap: 1px 1px;
+    grid-template-areas: ". . .";
+  }
+
+  /* sticky container */
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(52, 56, 55);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12
+ /* body parms */
+
+body {margin:0;}
+
+p {align-content: center}
+
+
+/* my css sticky navigation menu */
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(52, 56, 55);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  Font-size: 12;
+}
+
+/* sticky-menu link and hover behavior */
+
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* main body stuff */
+
+.main {
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px; /* Used in this example to enable scrolling */
+}
+
+/* web page container */
+
+.grid-container {
+    display: grid;
+    height: 100%;
+    grid-template-columns: 100% 960 100%;
+    grid-template-rows: ;
+    grid-gap: 1px 1px;
+    grid-template-areas: ". . .";
+  }
+
+  /* sticky container */
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(52, 56, 55);
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12
+ }
