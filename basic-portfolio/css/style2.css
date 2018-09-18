@@ -1,0 +1,51 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    }
+    #container {
+    width: 100%;
+    margin: 0 0 0 0px; /* top right bottom left */
+    padding: 0;
+    background-color: rgb(251, 255, 0);
+    }
+    #container h1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: rgb(77, 55, 149);
+    /* border-bottom: #c00 solid 3px; */
+    }
+    #container #col1 {
+    width: 250px;
+    height: 100%;
+    float: left;
+    background-color: rgb(92, 231, 99);
+    }
+    /* #container #col2outer {
+    width: 610px;
+    float: right;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 141, 19);
+    } */
+    #col2outer #col2mid {
+    width: 400px;
+    height: 100%;
+    float: left;
+    background-color: rgb(39, 97, 190);
+    }
+    #col2outer #col2side {
+    width: 300px;
+    height: 100%;
+    float: right;
+    background-color: orange;
+    }
+    #container #footer {
+    float: left;
+    width: 100%;
+    background-color: red;
+    border-top: rgb(56, 47, 47) solid 0px;
+    }

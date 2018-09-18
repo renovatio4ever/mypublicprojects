@@ -1,135 +1,176 @@
-/* body parms */
+/**
+ * First HTML Assignment CSS-File
+ * Auth: Peter Santiago
+ * Last Updated: 09.17.2018
+ **/
 
-body {margin:0;}
+/* Main Site Container */
 
-p {align-content: center}
-
-
-/* my css sticky navigation menu */
-
-.navbar {
-  overflow: hidden;
-  background-color: rgb(52, 56, 55);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  Font-size: 12;
+h {
+font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-/* sticky-menu link and hover behavior */
-
-.navbar a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-/* main body stuff */
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
-
-/* web page container */
-
-.grid-container {
-    display: grid;
-    height: 100%;
-    grid-template-columns: 100% 960 100%;
-    grid-template-rows: ;
-    grid-gap: 1px 1px;
-    grid-template-areas: ". . .";
+p {
+  align-content: center;
   }
 
-  /* sticky container */
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(52, 56, 55);
-    color: white;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 12
- /* body parms */
-
-body {margin:0;}
-
-p {align-content: center}
-
-
-/* my css sticky navigation menu */
-
-.navbar {
-  overflow: hidden;
-  background-color: rgb(52, 56, 55);
-  position: fixed;
-  top: 0;
-  width: 100%;
+body{
+  background-image: url('http://i65.tinypic.com/v6ivrm.png');
+  background-repeat: repeat;
+  background-color: #fff;
+  height: 50px;
+  text-decoration-color: #777777;
   font-family: Arial, Helvetica, sans-serif;
-  Font-size: 12;
 }
 
-/* sticky-menu link and hover behavior */
-
-.navbar a {
-  float: right;
+.blended_grid {
   display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  width: 100%;
+  overflow: auto;
+  margin: 0px auto 0 auto;
+}
+.s_h_container{
+  position: fixed;
+  background-color : rgb(255, 255, 255);
+  float: left;
+  clear: none;
+  height: 75px;
+  width: 100%;
+  z-index: 100;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #cccccc;
 }
 
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-/* main body stuff */
-
-.main {
-  padding: 16px;
-  margin-top: 30px;
-  height: 1500px; /* Used in this example to enable scrolling */
-}
-
-/* web page container */
-
-.grid-container {
-    display: grid;
-    height: 100%;
-    grid-template-columns: 100% 960 100%;
-    grid-template-rows: ;
-    grid-gap: 1px 1px;
-    grid-template-areas: ". . .";
+  .s_h_c {
+    background-color: rgba(255, 255, 255, 0);
+    position: fixed;
+    float: left;
+    clear: none;
+    height: 75px;
+    width: 960px;
+    top: 39px;
+    margin: 0;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 2px;
+  border-color:#f3eded;
+  }
+  
+  .box-1 {
+    display: inline-block;
+    width: 250px;
+    height: 76px;
+    background-color:#4aaaa5;
   }
 
-  /* sticky container */
-
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(52, 56, 55);
-    color: white;
+  .box-1 p {
+    color: #f1e8e8;
+    margin: 0;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 12
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+  .box-2 {
+    display: inline-block;
+    float: right;
+    width: 710px;
+    height: 77px;
+    background-color:#ffffff;
+    border-style: none;
+  }
+
+.c_container{
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 460px;
+  width: 910px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-width: 2px;
+  border-color:#dddddd;
+  padding: 25px;
+  line-height: 1.8;
  }
+
+ .c_name {
+  color: #4aaaa5;
+  text-decoration-color: #4aaaa5;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+ }
+ 
+.f_body {
+  background-color:#666666;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  float: left;
+  clear: none;
+  height: 50px;
+  width: 100%;
+}
+
+.f_body p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ebe2e2;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+
+.f_trim {
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color:#4aaaa5;
+  }
+ 
+/* another nav */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 710px;
+    height: 75px;
+    overflow: hidden;
+    background-color: #ffffff;
+     }
+  
+  li {
+      float: right;
+
+  }
+  
+  li a {
+      display: block;
+      color: rgb(31, 26, 26);
+      text-align: center;
+      padding: 29px;
+      text-decoration: none;
+  }
+  
+  li a:hover {
+      background-color: #4db9eb;
+  }  
